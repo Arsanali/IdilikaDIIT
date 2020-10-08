@@ -9,7 +9,7 @@
 import Foundation
 
 struct ProductModel: Codable {
-    let id: Int
+    var id: Int
     let imageLink: String
     var title: String
     let price: Int

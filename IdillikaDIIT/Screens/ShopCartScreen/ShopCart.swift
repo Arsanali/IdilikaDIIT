@@ -12,7 +12,7 @@ class ShopCart: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.backBarButtonItem?.image = #imageLiteral(resourceName: "arrow")
     }
     
     @IBAction func backProduct(_ sender: UIButton) {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		86EEE36C96D1A6556393D0A2 /* Pods_IdillikaDIIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68D4E33CC2B41447E509FB /* Pods_IdillikaDIIT.framework */; };
+		CE140C69252DB9D300939D7F /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE140C68252DB9D300939D7F /* Favorites.swift */; };
+		CE140C6E252F092B00939D7F /* Extension+UIlabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE140C6D252F092B00939D7F /* Extension+UIlabel.swift */; };
 		CE2D6E6F251B5A45001A8B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D6E6E251B5A45001A8B93 /* AppDelegate.swift */; };
 		CE2D6E71251B5A45001A8B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D6E70251B5A45001A8B93 /* SceneDelegate.swift */; };
 		CE2D6E76251B5A45001A8B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D6E74251B5A45001A8B93 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		546C59AC76B27BBDEAD80DBD /* Pods-IdillikaDIIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdillikaDIIT.release.xcconfig"; path = "Target Support Files/Pods-IdillikaDIIT/Pods-IdillikaDIIT.release.xcconfig"; sourceTree = "<group>"; };
 		6945E955350ABB5843D7A272 /* Pods-IdillikaDIIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdillikaDIIT.debug.xcconfig"; path = "Target Support Files/Pods-IdillikaDIIT/Pods-IdillikaDIIT.debug.xcconfig"; sourceTree = "<group>"; };
+		CE140C68252DB9D300939D7F /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		CE140C6D252F092B00939D7F /* Extension+UIlabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIlabel.swift"; sourceTree = "<group>"; };
 		CE2D6E6B251B5A45001A8B93 /* IdillikaDIIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdillikaDIIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2D6E6E251B5A45001A8B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2D6E70251B5A45001A8B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE140C67252DB9AD00939D7F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE140C68252DB9D300939D7F /* Favorites.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CE140C6C252F090400939D7F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE140C6D252F092B00939D7F /* Extension+UIlabel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CE2D6E62251B5A45001A8B93 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +118,12 @@
 		CE2D6E6D251B5A45001A8B93 /* IdillikaDIIT */ = {
 			isa = PBXGroup;
 			children = (
+				CE140C67252DB9AD00939D7F /* Data */,
 				CE2D6E6E251B5A45001A8B93 /* AppDelegate.swift */,
 				CE2D6E70251B5A45001A8B93 /* SceneDelegate.swift */,
 				CE2D6E82251B5A8D001A8B93 /* NetworkLayer */,
 				CE2D6E83251B5A98001A8B93 /* Screens */,
+				CE140C6C252F090400939D7F /* Extension */,
 				CE2D6E77251B5A49001A8B93 /* Assets.xcassets */,
 				CE2D6E79251B5A49001A8B93 /* LaunchScreen.storyboard */,
 				CE2D6E7C251B5A49001A8B93 /* Info.plist */,
@@ -319,7 +341,9 @@
 				CE2D6E8B251B5B57001A8B93 /* NetworkManager.swift in Sources */,
 				CE2D6E85251B5AE3001A8B93 /* MainScreen.swift in Sources */,
 				CE2D6E95251B5D14001A8B93 /* ProductCell.swift in Sources */,
+				CE140C6E252F092B00939D7F /* Extension+UIlabel.swift in Sources */,
 				CE2D6E6F251B5A45001A8B93 /* AppDelegate.swift in Sources */,
+				CE140C69252DB9D300939D7F /* Favorites.swift in Sources */,
 				CEDAFAD0251F839D0080933F /* ShopCart.swift in Sources */,
 				CE2D6E9D251B7354001A8B93 /* ProductPresenter.swift in Sources */,
 				CE2D6E99251B6556001A8B93 /* ProductModel.swift in Sources */,
